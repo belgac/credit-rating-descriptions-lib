@@ -1,0 +1,14 @@
+{
+  "name": "credit-rating-description-standard-scale",
+  "version": "0.0.1",
+  "description": "A small library containing a standard credit rating scale and it's descriptions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT",
+  "dependencies": {
+    "credit-rating-descriptions": "1.0.0"
+  }
+}

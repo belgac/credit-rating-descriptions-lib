@@ -1,0 +1,14 @@
+{
+  "name": "set-credit-rating-descriptions-sp",
+  "version": "0.0.1",
+  "description": "A small library to get standards and poors credit rating descriptions from a rating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT",
+  "dependencies": {
+    "credit-rating-descriptions-sp": "1.0.0"
+  }
+}

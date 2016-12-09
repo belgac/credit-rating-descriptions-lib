@@ -1,0 +1,11 @@
+{
+  "name": "credit-rating-descriptions",
+  "version": "0.0.1",
+  "description": "A small library of standard credit rating descriptions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT"
+}
