@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-big-three",
-  "version": "0.0.35",
+  "version": "0.0.37",
   "description": "A small utility package to get Standard's and Poor's, Fitch's and Moody's credit rating descriptions from a rating",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description": "^0.0.35",
+    "get-credit-rating-description": "^0.0.36",
     "set-credit-rating-descriptions-big-three": ">=0.0.28"
   }
 }

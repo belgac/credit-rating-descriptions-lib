@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-sp",
-  "version": "0.0.35",
+  "version": "0.0.37",
   "description": "A small utility package to get Standards & Poor's credit rating descriptions from a rating",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "set-credit-rating-descriptions-sp": ">=0.0.21",
-    "get-credit-rating-description": "^0.0.35"
+    "get-credit-rating-description": "^0.0.36"
   }
 }
