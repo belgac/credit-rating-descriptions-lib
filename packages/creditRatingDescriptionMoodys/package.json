@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-descriptions-moodys",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small library of Moody's credit rating descriptions",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "credit-rating-descriptions": "^1.0.3"
   },
-  "repositiory": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }

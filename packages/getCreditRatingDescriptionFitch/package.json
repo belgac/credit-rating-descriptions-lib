@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-fitch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small utility package to get Fitch's credit rating descriptions from a rating",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description": "^1.0.3",
-    "set-credit-rating-descriptions-fitch": "^1.0.3"
+    "get-credit-rating-description": "^1.0.4",
+    "set-credit-rating-descriptions-fitch": "^1.0.4"
   },
-  "repositiory": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }
