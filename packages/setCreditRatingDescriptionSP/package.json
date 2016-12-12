@@ -1,7 +1,7 @@
 {
   "name": "set-credit-rating-descriptions-sp",
-  "version": "0.0.19",
-  "description": "A small library to get standards and poors credit rating descriptions from a rating",
+  "version": "0.0.21",
+  "description": "A small library to set standards and poors credit rating descriptions for the credit description library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
