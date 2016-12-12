@@ -1,7 +1,7 @@
 {
-  "name": "get-credit-rating-description-fitch",
+  "name": "get-credit-rating-description-big-three",
   "version": "0.0.35",
-  "description": "A small utility package to get Fitch's credit rating descriptions from a rating",
+  "description": "A small utility package to get Standard's and Poor's, Fitch's and Moody's credit rating descriptions from a rating",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "get-credit-rating-description": "^0.0.35",
-    "set-credit-rating-descriptions-fitch": ">=0.0.25"
+    "set-credit-rating-descriptions-big-three": ">=0.0.28"
   }
 }
