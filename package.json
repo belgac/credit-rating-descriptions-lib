@@ -1,7 +1,7 @@
 {
-  "name": "credit-rating-lib",
+  "name": "credit-rating-demo",
   "version": "1.0.0",
-  "description": "A small library to get a credit rating descriptions from a credit rating",
+  "description": "A demo of the get credit rating library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,12 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description-big-three": ">=0.0.38"
+    "get-credit-rating-description-big-three": "^1.0.4"
   },
   "devDependencies": {
     "lerna": "2.0.0-beta.30"
   },
-  "repositiory": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }
