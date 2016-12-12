@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-descriptions-sp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A small library of standards and poors credit rating descriptions",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "credit-rating-description-standard-scale": "0.0.2"
+    "credit-rating-description-standard-scale": "0.0.4"
   }
 }
