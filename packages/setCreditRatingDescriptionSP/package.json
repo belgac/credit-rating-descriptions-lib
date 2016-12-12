@@ -1,6 +1,6 @@
 {
   "name": "set-credit-rating-descriptions-sp",
-  "version": "0.0.21",
+  "version": "0.0.38",
   "description": "A small library to set standards and poors credit rating descriptions for the credit description library",
   "main": "index.js",
   "scripts": {
