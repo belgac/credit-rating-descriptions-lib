@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-descriptions-fitch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small library of Fitch credit rating descriptions",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "credit-rating-description-standard-scale": "^1.0.2",
-    "credit-rating-descriptions": "^1.0.2"
+    "credit-rating-description-standard-scale": "^1.0.3",
+    "credit-rating-descriptions": "^1.0.3"
   },
   "repositiory": {
     "type": "git",
