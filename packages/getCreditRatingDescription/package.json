@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description",
-  "version": "0.0.1",
+  "version": "0.0.29",
   "description": "A small utility package to get credit rating descriptions in a standardized agency credit rating description data file",
   "main": "index.js",
   "scripts": {
