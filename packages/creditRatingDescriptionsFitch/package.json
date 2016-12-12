@@ -11,5 +11,9 @@
   "dependencies": {
     "credit-rating-description-standard-scale": "^1.0.2",
     "credit-rating-descriptions": "^1.0.2"
+  },
+  "repositiory": {
+    "type": "git",
+    "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }
 }

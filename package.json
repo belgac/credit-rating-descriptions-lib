@@ -13,5 +13,9 @@
   },
   "devDependencies": {
     "lerna": "2.0.0-beta.30"
+  },
+  "repositiory": {
+    "type": "git",
+    "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }
 }

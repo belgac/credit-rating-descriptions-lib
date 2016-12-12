@@ -10,5 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "credit-rating-descriptions-fitch": "^1.0.2"
+  },
+  "repositiory": {
+    "type": "git",
+    "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
   }
 }

@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repositiory": {
+    "type": "git",
+    "url": "https://github.com/belgac/credit-rating-descriptions-lib.git"
+  }
 }
