@@ -4,6 +4,8 @@
   "description": "A demo of the get credit rating library",
   "main": "index.js",
   "scripts": {
+    "build": "webpack ./index.js bundle/script.js",
+    "start": "npm run build && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren",
@@ -12,6 +14,7 @@
     "get-credit-rating-description-big-three": "^1.0.4"
   },
   "devDependencies": {
+    "http-server": "^0.9.0",
     "lerna": "2.0.0-beta.30"
   },
   "repository": {
