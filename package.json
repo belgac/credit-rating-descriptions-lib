@@ -1,0 +1,17 @@
+{
+  "name": "credit-rating-lib",
+  "version": "1.0.0",
+  "description": "A small library to get a credit rating descriptions from a credit rating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren",
+  "license": "MIT",
+  "dependencies": {
+    "get-credit-rating-description-big-three": ">=0.0.38"
+  },
+  "devDependencies": {
+    "lerna": "2.0.0-beta.30"
+  }
+}
