@@ -1,0 +1,14 @@
+{
+  "name": "credit-rating-descriptions-moodys",
+  "version": "0.0.23",
+  "description": "A small library of Moody's credit rating descriptions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT",
+  "dependencies": {
+    "credit-rating-descriptions": ">=0.0.16"
+  }
+}
