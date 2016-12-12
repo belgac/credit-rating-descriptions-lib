@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-description-standard-scale",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A small library containing a standard credit rating scale and it's descriptions",
   "main": "index.js",
   "scripts": {
