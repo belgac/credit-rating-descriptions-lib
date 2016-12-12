@@ -1,0 +1,11 @@
+{
+  "name": "get-credit-rating-description-sp",
+  "version": "0.0.30",
+  "description": "A small utility package to get Standards & Poor's credit rating descriptions from a rating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
+  "license": "MIT"
+}
