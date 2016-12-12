@@ -1,6 +1,6 @@
 {
   "name": "set-credit-rating-descriptions-moodys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small library to set Moody's credit rating descriptions for the credit description library",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "credit-rating-descriptions-moodys": "^1.0.1"
+    "credit-rating-descriptions-moodys": "^1.0.2"
   }
 }
