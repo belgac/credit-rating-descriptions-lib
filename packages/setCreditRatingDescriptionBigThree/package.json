@@ -1,6 +1,6 @@
 {
   "name": "set-credit-rating-descriptions-big-three",
-  "version": "0.0.38",
+  "version": "1.0.0",
   "description": "A small library to set S&P, Fitch and Moody's credit rating descriptions for the credit description library",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "set-credit-rating-descriptions-sp": "^0.0.38",
-    "set-credit-rating-descriptions-moodys": ">=0.0.25",
-    "set-credit-rating-descriptions-fitch": ">=0.0.27"
+    "set-credit-rating-descriptions-sp": "^1.0.0",
+    "set-credit-rating-descriptions-moodys": "^1.0.0",
+    "set-credit-rating-descriptions-fitch": "^1.0.0"
   }
 }
