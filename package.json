@@ -11,7 +11,7 @@
   "author": "Hans Scheuren",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description-big-three": "^1.0.4"
+    "get-credit-rating-description-big-three": "^1.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
