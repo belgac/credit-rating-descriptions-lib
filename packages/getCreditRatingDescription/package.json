@@ -1,9 +1,11 @@
 {
   "name": "get-credit-rating-description",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small utility package to get credit rating descriptions in a standardized agency credit rating description data file",
-  "main": "index.js",
+  "main": "./bundle/index.js",
   "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",

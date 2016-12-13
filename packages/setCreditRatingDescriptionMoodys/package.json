@@ -1,15 +1,17 @@
 {
   "name": "set-credit-rating-descriptions-moodys",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small library to set Moody's credit rating descriptions for the credit description library",
-  "main": "index.js",
+  "main": "./bundle/index.js",
   "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "credit-rating-descriptions-moodys": "^1.0.4"
+    "credit-rating-descriptions-moodys": "^1.0.5"
   },
   "repository": {
     "type": "git",

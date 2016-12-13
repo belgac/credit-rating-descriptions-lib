@@ -1,10 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
-
 const config = {
   entry: './index.js',
-  output: { path: __dirname + '/bundle', filename: 'script.js' },
-   module: {
+  output: { path: __dirname + '/bundle', filename: 'index.js' },
+  module: {
     loaders: [
       {
         test: /.js?$/,
@@ -19,5 +16,3 @@ const config = {
 };
 
 module.exports = config;
-
-

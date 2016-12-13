@@ -1,16 +1,18 @@
 {
   "name": "credit-rating-descriptions-sp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small library of standards and poors credit rating descriptions",
-  "main": "index.js",
+  "main": "./bundle/index.js",
   "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "credit-rating-description-standard-scale": "^1.0.4",
-    "credit-rating-descriptions": "^1.0.3"
+    "credit-rating-description-standard-scale": "^1.0.5",
+    "credit-rating-descriptions": "^1.0.5"
   },
   "repository": {
     "type": "git",
