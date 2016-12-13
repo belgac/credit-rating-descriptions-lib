@@ -1,9 +1,8 @@
 var path = require('path');
 var webpack = require('webpack');
+const fs = require('fs');
 
-module.exports = {
-  entry: './index.js',
-  output: { path: __dirname + '/bundle', filename: 'script.js' },
+const baseConfig = {
   module: {
     loaders: [
       {
@@ -16,4 +15,26 @@ module.exports = {
       }
     ]
   },
-};
+}
+
+const demoConfig = Object.assign({}, baseConfig, {
+  entry: './index.js',
+  output: { path: __dirname + '/bundle', filename: 'script.js' },
+});
+
+const config = fs.readdirSync('./packages').map(file =>
+  Object.assign(
+    {},
+    baseConfig,
+    {
+      entry: `./packages/${file}/index.js`,
+      output: { path: __dirname + `/packages/${file}/bundle`, filename: `${file}.js` },
+    }
+  )
+);
+
+config.push(demoConfig);
+
+module.exports = config;
+
+
