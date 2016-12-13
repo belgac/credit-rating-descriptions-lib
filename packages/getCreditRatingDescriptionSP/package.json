@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-sp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A small utility package to get Standards & Poor's credit rating descriptions from a rating",
   "main": "./bundle/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-moodys",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A small utility package to get Moody's credit rating descriptions from a rating",
   "main": "./bundle/index.js",
   "scripts": {
