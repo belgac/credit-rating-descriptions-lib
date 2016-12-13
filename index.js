@@ -7,10 +7,12 @@ submitButton.onclick = function() {
   const agency = document.getElementById('rating-agency').value;
   const fullDescription = getDescriptions.getFullDescription(rating, agency);
   const detailedDescription = getDescriptions.getDetailedDescription(rating, agency);
-  const gradeDescription = getDescriptions.getGradeDescription(rating, agency)
-  console.log(detailedDescription)
+  const gradeDescription = getDescriptions.getGradeDescription(rating, agency);
   document.getElementById('result').innerHTML = `
 <h2> Result </h2>
+<div>
+  <b>require('get-credit-rating-description-big-three')</b>
+</div>
 <div>
   <h3> .getFullDescription() </h3>
   <p>

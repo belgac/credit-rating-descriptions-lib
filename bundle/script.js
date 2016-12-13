@@ -44,46 +44,20 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	const getDescriptions = __webpack_require__(1);
+	'use strict';
 
-	const submitButton = document.getElementById('submit');
+	var getDescriptions = __webpack_require__(1);
 
-	submitButton.onclick = function() {
-	  const rating = document.getElementById('rating').value;
-	  const agency = document.getElementById('rating-agency').value;
-	  const fullDescription = getDescriptions.getFullDescription(rating, agency);
-	  const detailedDescription = getDescriptions.getDetailedDescription(rating, agency);
-	  const gradeDescription = getDescriptions.getGradeDescription(rating, agency)
-	  console.log(detailedDescription)
-	  document.getElementById('result').innerHTML = `
-	<h2> Result </h2>
-	<div>
-	  <h3> .getFullDescription() </h3>
-	  <p>
-	    <b>description:</b>
-	    ${fullDescription.description}
-	  </p>
-	  <p>
-	    <b>grade:</b>
-	    ${fullDescription.grade}
-	  </p>
-	</div>
-	<div>
-	  <h3> .getDetailedDescription() </h3>
-	  <p>
-	    ${detailedDescription}
-	  </p>
-	</div>
-	<div>
-	  <h3> .getGradeDescription() </h3>
-	  <p>
-	    ${gradeDescription}
-	  </p>
-	</div>
-	`;
-	}
+	var submitButton = document.getElementById('submit');
 
-
+	submitButton.onclick = function () {
+	  var rating = document.getElementById('rating').value;
+	  var agency = document.getElementById('rating-agency').value;
+	  var fullDescription = getDescriptions.getFullDescription(rating, agency);
+	  var detailedDescription = getDescriptions.getDetailedDescription(rating, agency);
+	  var gradeDescription = getDescriptions.getGradeDescription(rating, agency);
+	  document.getElementById('result').innerHTML = '\n<h2> Result </h2>\n<div>\n  <b>require(\'get-credit-rating-description-big-three\')</b>\n</div>\n<div>\n  <h3> .getFullDescription() </h3>\n  <p>\n    <b>description:</b>\n    ' + fullDescription.description + '\n  </p>\n  <p>\n    <b>grade:</b>\n    ' + fullDescription.grade + '\n  </p>\n</div>\n<div>\n  <h3> .getDetailedDescription() </h3>\n  <p>\n    ' + detailedDescription + '\n  </p>\n</div>\n<div>\n  <h3> .getGradeDescription() </h3>\n  <p>\n    ' + gradeDescription + '\n  </p>\n</div>\n';
+	};
 
 /***/ },
 /* 1 */
