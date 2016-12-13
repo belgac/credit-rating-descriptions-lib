@@ -4,7 +4,7 @@
   "description": "A demo of the get credit rating library",
   "main": "index.js",
   "scripts": {
-    "build": "webpack ./index.js bundle/script.js",
+    "build": "webpack",
     "start": "npm run build && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +14,12 @@
     "get-credit-rating-description-big-three": "^1.0.4"
   },
   "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
     "http-server": "^0.9.0",
-    "lerna": "2.0.0-beta.30"
+    "lerna": "2.0.0-beta.30",
+    "webpack": "^1.14.0"
   },
   "repository": {
     "type": "git",
