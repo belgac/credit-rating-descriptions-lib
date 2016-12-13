@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-sp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small utility package to get Standards & Poor's credit rating descriptions from a rating",
   "main": "./bundle/index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "set-credit-rating-descriptions-sp": "^1.0.4",
-    "get-credit-rating-description": "^1.0.4"
+    "set-credit-rating-descriptions-sp": "^1.0.5",
+    "get-credit-rating-description": "^1.0.5"
   },
   "repository": {
     "type": "git",
