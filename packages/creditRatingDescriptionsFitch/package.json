@@ -2,8 +2,10 @@
   "name": "credit-rating-descriptions-fitch",
   "version": "1.0.4",
   "description": "A small library of Fitch credit rating descriptions",
-  "main": "index.js",
+  "main": "./bundle/index.js",
   "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
