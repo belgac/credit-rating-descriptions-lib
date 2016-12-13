@@ -50,11 +50,9 @@
 	var setCreditRatingDescriptionMoodys = __webpack_require__(2);
 	var setCreditRatingDescriptionFitch = __webpack_require__(3);
 
-	function setCreditRatingDescriptionBigThree(creditRatingDescriptionsGetter) {
+	module.exports = function setCreditRatingDescriptionBigThree(creditRatingDescriptionsGetter) {
 	  return setCreditRatingDescriptionFitch(setCreditRatingDescriptionMoodys(setCreditRatingDescriptionSP(creditRatingDescriptionsGetter)));
-	}
-
-	module.exports = setCreditRatingDescriptionBigThree;
+	};
 
 /***/ },
 /* 1 */
