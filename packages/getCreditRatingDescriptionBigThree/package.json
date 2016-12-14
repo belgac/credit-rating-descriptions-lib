@@ -2,7 +2,7 @@
   "name": "get-credit-rating-description-big-three",
   "version": "1.0.7",
   "description": "A small utility package to get Standard's and Poor's, Fitch's and Moody's credit rating descriptions from a rating",
-  "main": "./bundle/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "prepublish": "npm run build",

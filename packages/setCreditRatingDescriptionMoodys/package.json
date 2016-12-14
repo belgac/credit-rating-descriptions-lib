@@ -2,7 +2,7 @@
   "name": "set-credit-rating-descriptions-moodys",
   "version": "1.0.5",
   "description": "A small library to set Moody's credit rating descriptions for the credit description library",
-  "main": "./bundle/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "prepublish": "npm run build",

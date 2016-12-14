@@ -1,4 +1,4 @@
 const setCreditRatingDescriptionSP = require('set-credit-rating-descriptions-sp');
-const getCreditRatingDescriptionsSP = setCreditRatingDescriptionSP(require('get-credit-rating-description'));
+const getCreditRatingDescriptions = require('get-credit-rating-description');
 
-module.exports = getCreditRatingDescriptionsSP;
+module.exports = setCreditRatingDescriptionSP(getCreditRatingDescriptions);
