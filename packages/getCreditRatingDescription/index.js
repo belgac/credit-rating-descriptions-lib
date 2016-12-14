@@ -4,6 +4,8 @@ module.exports = {
   getGradeDescription,
   setRatingAgencyData,
   setDefaultAgency,
+  setRatingDescription,
+  setUnknownResponse,
 }
 
 const data = {};
@@ -29,4 +31,16 @@ function setRatingAgencyData (nameSpace, ratingData) {
 
 function setDefaultAgency(agency) {
   agencyDefault = agency;
+}
+
+function setRatingDescription(response, rating, agency) {
+  if (agency) {
+    data[agency][rating] = response;
+  } else {
+    Object.keys(data).forEach((agencyKey) => setRatingDescription(response, rating, agencyKey));
+  }
+}
+
+function setUnknownResponse(response, agency) {
+  setRatingDescription(response, 'default', agency);
 }
