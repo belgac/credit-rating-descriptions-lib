@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-moodys",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A small utility package to get Moody's credit rating descriptions from a rating",
   "main": "./bundle/index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description": "^1.0.8",
-    "set-credit-rating-descriptions-moodys": "^1.0.8"
+    "get-credit-rating-description": "^1.0.9",
+    "set-credit-rating-descriptions-moodys": "^1.0.9"
   },
   "repository": {
     "type": "git",

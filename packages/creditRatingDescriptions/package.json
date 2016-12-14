@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-descriptions",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A small library of standard credit rating descriptions",
   "main": "./bundle/index.js",
   "scripts": {
