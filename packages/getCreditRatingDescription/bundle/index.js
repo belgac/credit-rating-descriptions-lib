@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define("getCreditRatingDescription", [], factory);
+	else if(typeof exports === 'object')
+		exports["getCreditRatingDescription"] = factory();
+	else
+		root["getCreditRatingDescription"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 
@@ -82,4 +92,6 @@
 	}
 
 /***/ }
-/******/ ]);
+/******/ ])
+});
+;

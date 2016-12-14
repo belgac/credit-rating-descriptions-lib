@@ -2,7 +2,7 @@
   "name": "credit-rating-description-standard-scale",
   "version": "1.0.8",
   "description": "A small library containing a standard credit rating scale and it's descriptions",
-  "main": "index.js",
+  "main": "./bundle/index.js",
   "scripts": {
     "build": "webpack",
     "prepublish": "npm run build",

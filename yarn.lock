@@ -759,35 +759,35 @@ corser@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/corser/-/corser-2.0.1.tgz#8eda252ecaab5840dcd975ceb90d9370c819ff87"
 
-credit-rating-description-standard-scale@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/credit-rating-description-standard-scale/-/credit-rating-description-standard-scale-1.0.4.tgz#b73e383424be82e1f12d9810f5f7c9bef7fc7835"
+credit-rating-description-standard-scale@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/credit-rating-description-standard-scale/-/credit-rating-description-standard-scale-1.0.8.tgz#8f10284a99bf870f94edb8172bfdde90061c0817"
   dependencies:
-    credit-rating-descriptions "^1.0.3"
+    credit-rating-descriptions "^1.0.8"
 
-credit-rating-descriptions-fitch@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-fitch/-/credit-rating-descriptions-fitch-1.0.4.tgz#ccf260c4b6b79a55b228651e5c12398cb070b092"
+credit-rating-descriptions-fitch@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-fitch/-/credit-rating-descriptions-fitch-1.0.8.tgz#323a7cd698605f1437208477382625b73029f003"
   dependencies:
-    credit-rating-description-standard-scale "^1.0.4"
-    credit-rating-descriptions "^1.0.3"
+    credit-rating-description-standard-scale "^1.0.8"
+    credit-rating-descriptions "^1.0.8"
 
-credit-rating-descriptions-moodys@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-moodys/-/credit-rating-descriptions-moodys-1.0.4.tgz#fe45b01662be30764d6dc0001654920d2b61d9b0"
+credit-rating-descriptions-moodys@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-moodys/-/credit-rating-descriptions-moodys-1.0.8.tgz#0a1b1fadabd54dd0bda74c9eb663ba574f95a053"
   dependencies:
-    credit-rating-descriptions "^1.0.3"
+    credit-rating-descriptions "^1.0.8"
 
-credit-rating-descriptions-sp@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-sp/-/credit-rating-descriptions-sp-1.0.4.tgz#28d2fa096fa8c5f4f6f4ead561f33697143f5129"
+credit-rating-descriptions-sp@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/credit-rating-descriptions-sp/-/credit-rating-descriptions-sp-1.0.8.tgz#f6fe598c715a422280af691d552513d730a1d62a"
   dependencies:
-    credit-rating-description-standard-scale "^1.0.4"
-    credit-rating-descriptions "^1.0.3"
+    credit-rating-description-standard-scale "^1.0.8"
+    credit-rating-descriptions "^1.0.8"
 
-credit-rating-descriptions@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/credit-rating-descriptions/-/credit-rating-descriptions-1.0.3.tgz#e338235099aca7ca567d5ddd2a57bc2a3b584f50"
+credit-rating-descriptions@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/credit-rating-descriptions/-/credit-rating-descriptions-1.0.8.tgz#75d5f684f4f18b2d298e3b6c1fd9ea3af2948b45"
 
 cross-spawn@^4.0.0:
   version "4.0.2"
@@ -1060,16 +1060,16 @@ generate-object-property@^1.1.0:
   dependencies:
     is-property "^1.0.0"
 
-get-credit-rating-description-big-three@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/get-credit-rating-description-big-three/-/get-credit-rating-description-big-three-1.0.4.tgz#02e8d8eeb855e47fb21da2b4293589ee693421dd"
+get-credit-rating-description-big-three@^1.0.6:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/get-credit-rating-description-big-three/-/get-credit-rating-description-big-three-1.0.8.tgz#e6cce0ba75312cbdb5992aed407e6f6fd51b232a"
   dependencies:
-    get-credit-rating-description "^1.0.4"
-    set-credit-rating-descriptions-big-three "^1.0.4"
+    get-credit-rating-description "^1.0.8"
+    set-credit-rating-descriptions-big-three "^1.0.8"
 
-get-credit-rating-description@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/get-credit-rating-description/-/get-credit-rating-description-1.0.4.tgz#da07a4ae038d24c1dd0d9140091ee4b2b5844154"
+get-credit-rating-description@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/get-credit-rating-description/-/get-credit-rating-description-1.0.8.tgz#b2f92202b7150318ded2507bb8eda97fefa7268c"
 
 get-stdin@^4.0.1:
   version "4.0.1"
@@ -1480,7 +1480,7 @@ lodash.unionwith@^4.2.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.unionwith/-/lodash.unionwith-4.6.0.tgz#74d140b5ca8146e6c643c3724f5152538d9ac1f0"
 
-lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.17.2, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
@@ -2083,31 +2083,31 @@ set-blocking@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
-set-credit-rating-descriptions-big-three@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-big-three/-/set-credit-rating-descriptions-big-three-1.0.4.tgz#bde6162435d383e3a4188e2daa2816851c3429b7"
+set-credit-rating-descriptions-big-three@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-big-three/-/set-credit-rating-descriptions-big-three-1.0.8.tgz#83887ef8e9e5922661410f779eb160674e71e95d"
   dependencies:
-    set-credit-rating-descriptions-fitch "^1.0.4"
-    set-credit-rating-descriptions-moodys "^1.0.4"
-    set-credit-rating-descriptions-sp "^1.0.4"
+    set-credit-rating-descriptions-fitch "^1.0.8"
+    set-credit-rating-descriptions-moodys "^1.0.8"
+    set-credit-rating-descriptions-sp "^1.0.8"
 
-set-credit-rating-descriptions-fitch@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-fitch/-/set-credit-rating-descriptions-fitch-1.0.4.tgz#b93b0daa41e63b5b93629fd8f3df988cb7d0caa0"
+set-credit-rating-descriptions-fitch@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-fitch/-/set-credit-rating-descriptions-fitch-1.0.8.tgz#408dd0ce69cb38550f132fc03277ef183358cdd1"
   dependencies:
-    credit-rating-descriptions-fitch "^1.0.4"
+    credit-rating-descriptions-fitch "^1.0.8"
 
-set-credit-rating-descriptions-moodys@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-moodys/-/set-credit-rating-descriptions-moodys-1.0.4.tgz#d7457ac8699c782f53fd12d3f4f8ea6825980e3a"
+set-credit-rating-descriptions-moodys@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-moodys/-/set-credit-rating-descriptions-moodys-1.0.8.tgz#f3e3b734cf027db4da1fd60a33cb590d9982de60"
   dependencies:
-    credit-rating-descriptions-moodys "^1.0.4"
+    credit-rating-descriptions-moodys "^1.0.8"
 
-set-credit-rating-descriptions-sp@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-sp/-/set-credit-rating-descriptions-sp-1.0.4.tgz#48f390f61521aaa0e2b917cf8a0463569d30e0b9"
+set-credit-rating-descriptions-sp@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/set-credit-rating-descriptions-sp/-/set-credit-rating-descriptions-sp-1.0.8.tgz#1964ec32f5916c1f0dcc64a091da20f6f2bdeca6"
   dependencies:
-    credit-rating-descriptions-sp "^1.0.4"
+    credit-rating-descriptions-sp "^1.0.8"
 
 set-immediate-shim@^1.0.1:
   version "1.0.1"
