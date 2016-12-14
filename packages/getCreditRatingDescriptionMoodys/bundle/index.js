@@ -513,14 +513,16 @@ return /******/ (function(modules) { // webpackBootstrap
 			/* 0 */
 			/***/function (module, exports) {
 
-				"use strict";
+				'use strict';
 
 				module.exports = {
 					getFullDescription: getFullDescription,
 					getDetailedDescription: getDetailedDescription,
 					getGradeDescription: getGradeDescription,
 					setRatingAgencyData: setRatingAgencyData,
-					setDefaultAgency: setDefaultAgency
+					setDefaultAgency: setDefaultAgency,
+					setRatingDescription: setRatingDescription,
+					setUnknownResponse: setUnknownResponse
 				};
 
 				var data = {};
@@ -548,6 +550,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 				function setDefaultAgency(agency) {
 					agencyDefault = agency;
+				}
+
+				function setRatingDescription(response, rating, agency) {
+					if (agency) {
+						data[agency][rating] = response;
+					} else {
+						Object.keys(data).forEach(function (agencyKey) {
+							return setRatingDescription(response, rating, agencyKey);
+						});
+					}
+				}
+
+				function setUnknownResponse(response, agency) {
+					setRatingDescription(response, 'default', agency);
 				}
 
 				/***/
