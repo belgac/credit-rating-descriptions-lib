@@ -1,6 +1,6 @@
 {
   "name": "get-credit-rating-description-big-three",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A small utility package to get Standard's and Poor's, Fitch's and Moody's credit rating descriptions from a rating",
   "main": "./bundle/index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "author": "Hans Scheuren <hans.scheuren@bizliner.com>",
   "license": "MIT",
   "dependencies": {
-    "get-credit-rating-description": "^1.0.9",
-    "set-credit-rating-descriptions-big-three": "^1.0.9"
+    "get-credit-rating-description": "^1.0.10",
+    "set-credit-rating-descriptions-big-three": "^1.0.10"
   },
   "repositiory": {
     "type": "git",

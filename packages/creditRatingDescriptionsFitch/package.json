@@ -1,6 +1,6 @@
 {
   "name": "credit-rating-descriptions-fitch",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A small library of Fitch credit rating descriptions",
   "main": "./bundle/index.js",
   "scripts": {
